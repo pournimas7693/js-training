@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+  function outer(){
+  count=0;
+  function inner(){
+ count++;
+ console.log(count);
+  }
+  return inner;//Return body of inner function
+  }
+
+
+ var xyz=outer();
+  console.log(xyz); //Return inner function code
+  console.log(xyz()); //Return value 1
+
+    </script>
+</head>
+
+</html>

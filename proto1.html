@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+  var obj=function(){
+  this.fname="anuj";
+  this.city="noida";
+  }; 
+//   var x=new obj();
+//   x.gender="male"; //it will only work with var x obj
+//   var x1= new obj();
+
+  //console.log(x.gender);//male
+  //console.log(x1.gender); //undefined
+
+  obj.prototype.gender="male"; //using prototype
+
+var x=new obj();
+ var x1= new obj();
+
+ console.log(x.gender);//male
+  console.log(x1.gender); //male
+
+    </script>
+</head>
+
+</html>

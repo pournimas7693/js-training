@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+  var calc=function(){
+    return {
+        add: function(a,b){
+            return(a+b);
+        },
+        sub: function(a,b){
+            return(a-b);
+        }
+    }
+  }(); //Immediate calling function
+  console.log(calc.add(2,3));
+  console.log(calc.sub(2,2));
+
+
+//Regular way of creating object and then access
+
+//   var obj=new calc;
+//   console.log(obj.add(3,4));
+//   console.log(obj.add(10,4));
+
+    </script>
+</head>
+
+</html>
