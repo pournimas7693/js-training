@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": 2,
+      "name": "E",
+      "age": 45,
+      "city": "delhi"
+    },
+    {
+      "id": 3,
+      "name": "C",
+      "age": "67",
+      "city": "mumbai"
+    },
+    {
+      "id": 4,
+      "name": "xyz",
+      "age": "45",
+      "city": "noida"
+    },
+    {
+      "name": "anuj",
+      "age": "67",
+      "city": "Jaipur",
+      "id": 5
+    },
+    {
+      "name": "Pournima shinde",
+      "age": "29",
+      "city": "satara",
+      "id": 7
+    },
+    {
+      "name": "Priyana shinde",
+      "age": "22",
+      "city": "K. Mahuli",
+      "id": 8
+    }
+  ]
+}
